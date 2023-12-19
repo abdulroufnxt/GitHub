@@ -1,0 +1,137 @@
+.overallConOfJobs {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.creativeFirstSmallDevices {
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.searchInput {
+  background-color: transparent;
+  height: 40px;
+  width: 90%;
+  border: none;
+  padding: 10px;
+  color: white;
+  outline: none;
+}
+
+@media (max-width: 700px) {
+  .overallConOfJobs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .creativeFirstLargerDevices {
+    display: none;
+  }
+}
+
+.blackCon {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.searchCon {
+  border: 1px solid #cbd5e1;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  background-color: #272727;
+  height: 40px;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .overallConOfJobs {
+    background-color: black;
+    min-height: 100vh;
+  }
+}
+
+.line {
+  border: 1px solid #cbd5e1;
+}
+
+.eachCon {
+  width: 90%;
+}
+
+.white {
+  color: white;
+}
+
+.fixed {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px;
+}
+
+.jobs-loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.eachJobCard {
+  list-style: none;
+}
+
+@media (min-width: 701px) {
+  .eachCon {
+    width: 100%;
+
+    display: flex;
+  }
+  .creativeFirstLargeDevices {
+    display: flex;
+
+    color: white;
+    padding: 20px;
+    width: 50%;
+  }
+  .profileContainerSetInLarge {
+    width: 30%;
+    padding: 10px;
+  }
+  .creativeFirstSmallDevices {
+    display: none;
+  }
+
+  .adjustJobsWidthInLarge {
+    width: 60%;
+    margin-left: 30px;
+  }
+  .creativeFirstLargerDevices {
+    display: flex;
+    width: 60%;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .searchCon {
+    border: 1px solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.noJobsCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}

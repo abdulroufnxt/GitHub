@@ -1,0 +1,134 @@
+.logo {
+  height: 50px;
+}
+
+.overallCon {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.adjustEachCardInDetailed {
+  margin: 20px;
+  background-color: #272727;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: white;
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.DesAndVisitCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.visitCon {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  color: #6366f1;
+}
+
+.skillsCon {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: -30px;
+}
+
+.skillImage {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.pading {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.headingCon {
+  align-self: flex-start;
+}
+
+.adjustEachCardInDetailed1 {
+  margin: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 650px) {
+  .adjustBasedONDevices {
+    display: flex;
+  }
+  .con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  }
+}
+
+.image {
+  height: 200px;
+  align-self: center;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .adjustBasedONDevices {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .image {
+    align-self: center;
+  }
+  .adjustEachCardInDetailed {
+    margin: 20px;
+    background-color: #272727;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: white;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .pading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}

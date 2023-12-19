@@ -1,0 +1,115 @@
+@media (min-width: 700px) {
+  .small {
+    display: none;
+  }
+  .headerLogo {
+    width: 30%;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 700px) {
+  .large {
+    display: none;
+  }
+  .small {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerLogo {
+    width: 30%;
+  }
+}
+
+.smallHeaderContainer {
+  background-color: #272727;
+  padding: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overallHeaderCon {
+  padding: 1px;
+  border: none;
+}
+
+.home {
+  color: white;
+  height: 15px;
+
+  font-size: 30px;
+}
+
+.iconsCon {
+  display: flex;
+  list-style-type: none;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonLogout {
+  background-color: transparent;
+  border: none;
+}
+
+.buttonJob {
+  margin-top: 80px;
+  align-self: flex-start;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+}
+
+.adjust {
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  height: 40%;
+}
+
+.smallImage {
+  width: 250px;
+}
+
+.lgHeader {
+  background-color: #272727;
+  padding: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.homeAndJobs {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeAndJobButton {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.largeLogoutButton {
+  border-radius: 10px;
+  width: 120px;
+  background-color: #4f46e5;
+  border: none;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+}
+
+.logout {
+  color: white;
+  text-decoration: none;
+}
